@@ -1,0 +1,13 @@
+{
+    "name": "<%=appNamer.getAngularName()%>",
+    "version": "0.0.1",
+    "description": "Angular boilerplate based on require.js",
+    "main": "",
+    "scripts": {},
+    "dependencies": {
+        "grunt": "~0.4.2",
+        "grunt-contrib-requirejs": "~0.4.1",
+        "grunt-bower-task": "~0.3.4",
+        "ngmin": "~0.4.1"
+    }
+}

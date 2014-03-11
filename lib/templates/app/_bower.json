@@ -1,0 +1,21 @@
+{
+    "name": "<%=appNamer.getAngularName()%>",
+    "version": "0.0.0",
+    "authors": [
+    ],
+    "description": "Angular boilerplate based on require.js",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "angular": "~1.2.10",
+        "angular-route": "~1.2.10",
+        "requirejs-text": "~2.0.10",
+        "requirejs": "~2.1.10",
+        "bootstrap": "~3.1.1",
+        "jquery": "~2.1.0"
+    }
+}
