@@ -32,7 +32,7 @@ $ npm install -g generator-ass
 Finally, initiate the generator:
 
 ```
-$ yo angular-require
+$ yo ass
 ```
 
 ### Getting To Know Yeoman
