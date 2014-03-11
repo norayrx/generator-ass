@@ -1,4 +1,4 @@
-# generator-ass
+# YO ASS!
 
 ## Getting Started
 
@@ -28,12 +28,42 @@ Finally, initiate the generator:
 $ yo ass
 ```
 
-### Getting To Know Yeoman
+#### Build
 
-Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.
+Install Grunt
 
-If you'd like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).
+```
+npm install grunt -g
+```
 
+and build
+
+```
+grunt build
+```
+
+Now all your scripts are minified in one file `/app/js/app.min.js` and your styles in `/app/style/styles.min.css`
+
+#### Sub-generators
+
+To create new module
+
+```
+ass:module newModuleName
+```
+
+To create new controller/service/filter/directive
+
+```
+ass:controller/service/filter/directive name
+```
+then enter module name
+
+To create new page
+
+```
+ass:page name
+```
 
 ## License
 
