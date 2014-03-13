@@ -1,4 +1,4 @@
-# YO ASS!
+# ANGULAR-SUPER-SEED
 
 ## Getting Started
 
